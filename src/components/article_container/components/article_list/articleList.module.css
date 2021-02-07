@@ -1,0 +1,26 @@
+.articleList {
+  padding: 1rem;
+  width: 100%;
+}
+
+.articleContainer {
+  display: grid;
+  gap: 1rem;
+}
+
+.heading {
+  margin: 0;
+}
+
+.description {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #9F9F9F;
+  margin-bottom: 16px;
+}
+
+@media only screen and (min-device-width: 768px) {
+  .articleList {
+    padding: 1.5rem 2rem;
+  }
+}

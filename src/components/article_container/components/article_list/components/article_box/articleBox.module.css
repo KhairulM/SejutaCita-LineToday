@@ -1,0 +1,25 @@
+.articleBox {
+  display: grid;
+  gap: .5rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+.imageContainer {
+  border-radius: 3px;
+  width: 100%;
+  background-size: cover;
+  padding-top: 56.25%;
+}
+
+.title {
+  font-weight: 500;
+  margin: 0;
+}
+
+.description {
+  font-size: 0.75rem;
+  font-weight: 300;
+  color: #9F9F9F;
+  margin: 0;
+}

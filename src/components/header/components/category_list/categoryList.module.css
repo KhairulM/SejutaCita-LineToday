@@ -1,0 +1,25 @@
+.container{
+  display: flex;
+  flex: row nowrap;
+  overflow-x: scroll;
+  padding-bottom: 1rem;
+}
+
+.category {
+  font-weight: bold;
+  margin: 0 0.5rem;
+  white-space: nowrap;
+  opacity: 0.5;
+}
+
+.active {
+  opacity: 1;
+}
+
+.category:first-child {
+  margin-left: 0;
+}
+
+.category:last-child {
+  margin-right: 0;
+}
